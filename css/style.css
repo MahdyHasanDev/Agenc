@@ -1,0 +1,398 @@
+/* all common css :start   */
+*{
+    margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing:border-box;
+   font-family: "Inter", serif;
+}
+ul,li{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration:none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: .8;
+}
+/* .container{
+    width: 1320px;
+    margin: 0 aut0;
+} */
+
+/* all common css end  */
+/* writing part 1 start  */
+.contactbtn{
+   
+    padding: 10px 25px;
+    background: #6A4DF4;
+    color: white;
+    border-radius: 10px;
+}
+.nav-link{
+    padding: 0 30px !important;
+    font-size: 18px;
+    transition: .6s;
+    color: white;
+}
+.navbar-brand{
+    padding-right: 40px;
+}
+.utm{
+    margin-right: 40px;
+}
+.navvar{
+    padding-left: 30px;
+    padding-right: 70px;
+    color:white;
+    transition: .6s;
+}
+.nav-link:hover{
+color: bisque;
+}
+.navvar:hover{
+    color: bisque;
+    
+    }
+
+    #bannerpart{
+      
+        background: url(../images/agenc-Banner\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+    }
+    .bannerpartoverlay{
+        padding-top: 330px;
+        padding-bottom: 175px;
+        background: rgba(0, 0, 0, 0.62);
+    }
+
+    .navbar{
+     
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .modify{
+    color: white;
+    
+    }
+    .modify p{
+        padding:50px 152px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .modify h1{
+        
+        font-size: 80px;
+        line-height: 120%;
+    }
+    .modify a{
+        border-radius: 10px;
+        background:#6A4DF4 ;
+        color: white;
+        padding:20px 30px ;
+    }
+/* writing part 1 end  */
+
+/* successpart start  */
+#successprt{
+    padding:160px 0 ;
+}
+.extracount{
+    padding: 90px 40px;
+    background:#E0FFF9;
+    border-radius: 20px;
+}
+.mahdy h4{
+    color: #6A4DF4;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+    padding-bottom: 25px;
+}
+.mahdy h3{
+    color: #151515;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    padding-right:200px;
+}
+.hasan h2{
+font-weight: 800;
+font-size: 50px;
+line-height: 100%;
+padding-bottom: 20px;
+padding-top:20px;
+}
+.hasan h5{
+    font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+color: #737373;
+}
+
+.banna h2{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100%;
+    padding-bottom: 20px;
+    padding-top:20px;
+    }
+    .banna h5{
+        font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #737373;
+    }
+
+    .khaled h2{
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 100%;
+        padding-bottom: 20px;
+        padding-top:20px;
+        }
+        .khaled h5{
+            font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        color: #737373;
+        }
+/* successpart :end  */
+
+/* service part :start  */
+#servicepart{
+
+    padding: 160px 0;
+}
+.dextro h2{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 100%;
+    color: #151515;
+   
+}
+.dextro h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #737373;
+    padding:25px 400px;
+}
+.leovo{
+padding-top:70px;
+line-height: 100%;
+color: #151515;
+
+
+}
+.leovo h3{
+    padding:40px 0 ;
+}
+.leovo p{
+    padding:0 200px;
+    line-height: 100%;
+    color: #737373;
+}
+.khuu{
+    padding: 80px 0;
+    display: flex;
+}
+.serviceItem {
+    padding: 55px;
+    transition: .6s;
+  
+  }
+  .serviceItem:hover {
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(16, 16, 136, 0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(16, 16, 136, 0.75);
+    box-shadow: 0px 0px 4px 0px rgba(16, 16, 136, 0.75);
+    border-radius: 20px;
+  }
+/* servicepart end  */
+
+/* <!-- work part start  --> */
+#workpart{
+    padding: 160px 0;
+}
+.itempart{
+    padding: 80px 0;
+    background: #F3F3F3;
+}
+.header {
+    text-align: center;
+    
+    font-weight: bold;
+}
+.header p{
+    padding: 20px 950px;
+    line-height: 100%;
+}
+.header h3{font-size: 45px;}
+
+.banner{
+    margin-top: 40px;
+border-radius: 20px;
+    background: #eeeaea;
+}
+.banner img{
+    width: 100%;
+}
+.banner h3{
+    padding: 20px 0;
+    text-align: center;
+}
+.banner h5{
+    padding: 20px;
+}
+.flex{
+    display: flex;
+
+}
+.hg{
+    margin-right: 50px;
+}
+/* <!-- work part end  --> */
+
+/* agencpart start  */
+#agencpart{
+    padding: 150px 0;
+}
+.press h3{
+    padding: 0  400px;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 100%;
+}
+.press p{
+    padding: 30px 200px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+   margin-bottom: 80px;
+}
+.ideaflex{
+    display: inline-block;
+    margin-top:15px;
+}
+.ideapart h4{
+padding: 15px 0;
+font-weight: bold;
+font-size: 25px;
+line-height: 100%;
+}
+.ideapart p{
+    color: #737373;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom:50px;
+    
+}
+#contactpart{
+    padding: 230px 0;
+}
+.CODEDESIGN{
+    padding: 160px 0;
+    background: #F3F3F3;
+}
+.dessignflex h3{
+   margin-top: 150px;
+padding-right: 150px;
+font-weight: bold;
+font-size: 45px;
+line-height: 100%;
+color: #151515;
+margin-bottom: 15px;
+}
+
+
+.dessignflex p{
+    padding-right:  120px;
+
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+}
+.box{
+    background: #FFFFFF;
+    padding: 40px ;
+    border-radius: 15px;
+}
+.qutopadding{
+    margin-bottom: 35px;
+}
+.btn{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left:65px;
+    padding:15px 140px;
+    border-radius: 15px;
+    background: #6A4DF4;
+    color: white;
+    font-size: 20px;
+}
+.mb-3{
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+color: #151515;
+}
+/* agencpart end  */
+#lastpart{
+    padding: 150px 0;
+}
+.pone p{
+    padding-right: 200px;
+}
+
+
+
+
+
+.agencflex img{
+    margin-bottom:30px ;
+}
+.agencflex p{
+    padding-right: 90px;
+    line-height: 150%;
+    color: #7B7B7B;
+}
+.col-lg-2 h3{
+color: #151515;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+margin-bottom: 40px;
+}
+.col-lg-2 h6{
+    line-height: 40px;
+    color: #7B7B7B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.line{
+    margin-top: 200px ;
+    margin-left: 700px;
+    margin-right: 200px;
+    height: 2px;
+    background: rgb(226, 222, 222);
+    width: 1200px;
+  }  
+  .copy{
+    margin-left: 1100px;
+    margin-top: 50px;
+    color: #adadad;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Open Sans", serif;
+  }
