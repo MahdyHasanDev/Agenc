@@ -1,0 +1,219 @@
+/* Extra large devices */
+@media (min-width: 1200px) { 
+}
+
+/* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+}
+
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar-toggler i{
+        color: white;
+        font-size: 30px;
+    }
+    .navbar-nav {
+      
+        background: teal;
+        border-radius: 10px;
+        text-align: center;
+      }
+     .contactbtn {
+        padding: 5px 18px;
+       margin-left: 212px;
+        font-size: 15px;
+        margin-top: 10px;
+      }
+      .bannerpartoverlay {
+        padding-top: 150px;
+        padding-bottom: 150px;
+       
+      }
+      .modify h1 {
+        font-size: 45.5px;
+        line-height: 140%;
+      }
+      .modify p {
+        padding: 45px 80px;
+        font-size: 20px;
+        line-height: 34.5px;
+      }
+      #successprt {
+        padding: 70px 0;
+      }
+      .mahdy h4 {
+        
+        text-align: center;
+      }
+     
+      .mahdy h3{
+        padding-right: 0;
+        font-size:35px;
+        text-align: center;
+        line-height: 40px;
+      }
+      .hasan h2{
+        text-align: center;
+        padding-top: 40px;
+      }
+      .khaled h2{
+        text-align: center;
+        padding-top: 40px;
+
+      }
+      .banna h2{
+        text-align: center;
+        padding-top: 40px;
+
+      }
+      .hasan h5{
+        text-align: center;
+      font-size:25px;
+      }
+      .khaled h5{
+        text-align: center;
+        font-size:25px;
+      }
+      .banna h5{
+        text-align: center;
+        font-size:25px;
+      }
+      #servicepart {
+        padding: 0;
+      }
+      .dextro h5 {
+        
+        font-size: 20px;
+        line-height: 115%;
+        color: #4e076e;
+        padding: 20px 123.9px;
+      }
+      .serviceItem {
+        margin: 20px 0;
+      }
+      .leovo p {
+        padding: 0 77.2px;
+        line-height: 110%;
+        color: #6230be;
+      }
+      .serviceItem {
+        padding: 0;
+        transition: .6s;
+      }
+      .khuu {
+        padding: 0;
+        display: block;
+      }
+      #workpart {
+        padding:30px 0;
+      }
+      .header h3 {
+       
+        padding: 10px;
+      }
+      .header p {
+        padding: 20px 0px;
+        line-height: 130%;
+      }
+      .flex {
+        display: block;
+      }
+      #agencpart {
+        padding: 20px;
+      }
+      .press h3 {
+        padding: 0 50px;
+       
+        line-height: 115%;
+      }
+      .press p {
+        padding: 30px 38.5px;
+        font-weight: 300;
+       
+        margin-bottom: 30px;
+      
+}
+.ideapart{
+  text-align: center;
+}
+.ideapart p {
+	color: #54684f;
+	
+	padding: 0 119.3px;
+}
+.center{
+  padding-left: 40px;
+}
+#contactpart {
+  padding: 70px 0;
+}
+.CODEDESIGN {
+  padding: 0;
+}
+.dessignflex h3 {
+	margin-top: 50px;
+	padding-right: 0px;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 110%;
+	
+	text-align: center;
+}
+.dessignflex p {
+	
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	color: #0e6d8a;
+	padding: 19.9px 0;
+  padding-left: 15px;
+}
+.box {
+
+	margin-top: 80px;
+}
+.btn {
+	font-weight: 800;
+	margin-bottom: 40px;
+	margin-left: 100px;
+	padding: 15px 40px;
+	border-radius: 10px;
+	background: #bd6a0c;
+	color: rgb(248, 242, 244);
+	font-size: 18px;
+}
+#contactpart {
+	padding:  0;
+}
+.box {
+	margin: 80px 0;
+}
+#lastpart {
+	padding: 20px;
+}
+.agencflex img {
+	margin: 30px 160px;
+}
+.agencflex p {
+	padding: 10px 15px;
+	line-height: 170%;
+	color: #417791;
+}
+.textcenter{
+  text-align: center;
+  padding-top: 35px ;
+}
+.textcenter h3{
+margin-top: 25px;
+margin-bottom: 10px;
+}
+
+}
+/* Extra small devices  */
+@media (max-width: 575.98px) {
+
+}
